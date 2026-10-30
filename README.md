@@ -1,9 +1,16 @@
+
+---
+
+### 3️⃣ Neroxa-TaskFlow (`README.md` mein yeh poora daal de)
+```markdown
 # Neroxa-TaskFlow
 
 A lightweight asynchronous task scheduler and queue utility designed to manage and execute high-speed background operations.
 
-## Features
-- Asynchronous task queueing.
-- High-speed execution loop.
-- Seamless status tracking.
-- 
+## 🚀 Quick Start
+
+```python
+from task_manager import NeroxaTaskFlow
+
+sample_tasks = ["Optimize_Cache", "Flush_Buffers", "Reindex_Sockets"]
+NeroxaTaskFlow.execute_queue(sample_tasks)
